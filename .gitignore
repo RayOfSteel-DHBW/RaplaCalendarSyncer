@@ -1,0 +1,81 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Maven
+**/target/  # Ignore all target directories in any subdirectory
+**/target/**/*
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# Avoid ignoring Maven wrapper jar file (.mvn/wrapper/maven-wrapper.jar)
+!**/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+# Avoid ignoring Gradle wrapper jar file (gradle/wrapper/gradle-wrapper.jar)
+!**/gradle-wrapper.jar
+.gradle/caches/
+.gradle/workerMain/
+.gradle/daemon/
+.gradle/init.d/
+.gradle/caches/build-cache/
+out/
+
+# Eclipse
+.project
+.classpath
+.caches/
+*.launch
+.settings/
+*.scope
+
+# IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+*.bak
+*.orig
+*.rej
+*.swp
+*.lock
+hs_err_pid*
+
+# VS Code
+.vscode/
+
+# Other Files #
+.DS_Store
+Thumbs.db
+
+# Java-specific temporary files
+*.tmp
+*.bak~
